@@ -84,7 +84,7 @@ The bomb is represented by the character __'X'__.
 
 __Available Directions:__
 
-    ```- 'U' (Up)
+    - 'U' (Up)
     - 'D' (Down)
     - 'R' (Right)
     - 'L' (Left)
@@ -92,7 +92,7 @@ __Available Directions:__
     - 'UR' (Up Right)
     - 'DL' (Down Left)
     - 'DR' (Down Right)
-    ```
+    
  
 
 ### **Steps to Solve the Problem:** 📖
