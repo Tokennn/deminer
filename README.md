@@ -7,7 +7,7 @@
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Getting Started](#getting-started)
-- [Description](#description)
+- [Description](#games-description)
 - [Author](#author)
  
 ## Project Overview  
@@ -82,16 +82,14 @@ The bomb is represented by the character 'X'.
 
 __Available Directions:__
 
-'U' (Up)
-'D' (Down)
-'R' (Right)
-'L' (Left)
-'UL' (Up Left)
-'UR' (Up Right)
-'DL' (Down Left)
-'DR' (Down Right)
-
-<p align="right">(<a href="#readme-top"><strong>Back to top</strong></a>)</p>
+- 'U' (Up)
+- 'D' (Down)
+- 'R' (Right)
+- 'L' (Left)
+- 'UL' (Up Left)
+- 'UR' (Up Right)
+- 'DL' (Down Left)
+- 'DR' (Down Right)
  
 
 ### **Steps to Solve the Problem:**
@@ -111,6 +109,8 @@ __Move the Player:__
 __Stop When the Bomb is Reached:__
 
 ```End the process when the player's coordinates match those of the bomb```
+
+<p align="right">(<a href="#readme-top"><strong>Back to top</strong></a>)</p>
 
 
 ## Contact  
