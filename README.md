@@ -78,9 +78,9 @@ After installation, follow these steps to run the game :
 
 __*The grid is a list where :*__
 
-An empty space is represented by the character 'o'.
-The player is represented by the character 'P'.
-The bomb is represented by the character 'X'.
+An empty space is represented by the character __'o'__.
+The player is represented by the character __'P'__.
+The bomb is represented by the character __'X'__.
 
 __Available Directions:__
 
@@ -115,6 +115,11 @@ __Stop When the Bomb is Reached:__
 <p align="right">(<a href="#readme-top"><strong>Back to top</strong></a>)</p>
 
 
+## Note ! ⚠️
+
+```When the game starts you have by default two grids (the top one which will give the position of the bomb when it is found then the bottom one which represents the current game with the position of the character).
+Then, when you win the game, it is updated with another position for P and X. It is however possible for you to stop the game by doing a "ctrl + c".
+```
 ## Contact  📄
  
 - __[@Tokennn]__ (https://github.com/Tokennn)
