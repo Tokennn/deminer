@@ -118,7 +118,8 @@ __Stop When the Bomb is Reached:__
 ## Note ! ⚠️
 
 ```When the game starts you have by default two grids (the top one which will give the position of the bomb when it is found then the bottom one which represents the current game with the position of the character).
-Then, when you win the game, it is updated with another position for P and X. It is however possible for you to stop the game by doing a "ctrl + c".```
+Then, when you win the game, it is updated with another position for P and X. It is however possible for you to stop the game by doing a "ctrl + c".
+```
 
 ## Contact  📄
  
