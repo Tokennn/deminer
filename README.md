@@ -84,15 +84,21 @@ The bomb is represented by the character __'X'__.
 
 __Available Directions:__
 
-    - 'U' (Up)
-    
-    - 'D' (Down)
-    - 'R' (Right)
-    - 'L' (Left)
-    - 'UL' (Up Left)
-    - 'UR' (Up Right)
-    - 'DL' (Down Left)
-    - 'DR' (Down Right)
+    -> 'U' (Up)
+
+    -> 'D' (Down)
+
+    -> 'R' (Right)
+
+    -> 'L' (Left)
+
+    -> 'UL' (Up Left)
+
+    -> 'UR' (Up Right)
+
+    -> 'DL' (Down Left)
+
+    -> 'DR' (Down Right)
     
  
 
