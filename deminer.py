@@ -23,7 +23,7 @@ def update_grid(grid, player_pos, bomb_pos=None, reveal_bomb=False):
     updated_grid[player_pos[1]][player_pos[0]] = 'P'
    
     if reveal_bomb and bomb_pos is not None:
-        updated_grid[bomb_pos[1]][bomb_pos[0]] = 'X'  # 'X' pour la bombe
+        updated_grid[bomb_pos[1]][bomb_pos[0]] = 'X' 
    
     return updated_grid
 
@@ -33,7 +33,7 @@ def print_grid(grid):
     print()
 
 def get_player_move(direction):
-    # Suggest the player to move in the given direction
+    # -> Suggest the player to move in the given direction
     print(f"Déplacez-vous dans la direction: {direction}")
     valid_moves = [direction]
     move = input(f"Choisissez une direction ({direction}) : ").strip().upper()
@@ -106,7 +106,7 @@ def generate_new_grid(rows, cols):
             break
     return grid, (bomb_x, bomb_y)
 
-# Exemple de grille initiale...
+# Example of initial grid...
 initial_grid = [
     ["o", "o", "o", "o", "o"],
     ["o", "P", "o", "o", "o"],
@@ -114,7 +114,7 @@ initial_grid = [
     ["o", "o", "o", "o", "o"],
     ["o", "o", "o", "o", "o"]
 ]
-# Position initiale de la bombe (cachée)
+# Initiale bomb position (cachée)
 initial_bomb_pos = (3, 1)
 
 print("Grille initiale (bombe cachée) :")
