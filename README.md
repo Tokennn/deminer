@@ -27,7 +27,7 @@ Create a program where a player moves on a grid to reach a bomb. The grid contai
 
 ## Built With
  
-For this project we worked on these technologies
+For this project i worked on this technologie
  
 * [![Python][Python]][Python-url]
 
