@@ -1,5 +1,7 @@
 # Deminer
 
+<a name="readme-top"></a>
+
 ## Index
  
 - [Index](#index)
@@ -70,9 +72,8 @@ After installation, follow these steps to run the game :
  
 <p align="right">(<a href="#readme-top"><strong>Back to top</strong></a>)</p>
 
-## Description  
+## Description Grid Representation
 
-### **Grid Representation:**
 
 __*The grid is a list where :*__
 
