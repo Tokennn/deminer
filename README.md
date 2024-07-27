@@ -85,6 +85,7 @@ The bomb is represented by the character __'X'__.
 __Available Directions:__
 
     - 'U' (Up)
+    
     - 'D' (Down)
     - 'R' (Right)
     - 'L' (Left)
