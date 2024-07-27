@@ -73,7 +73,7 @@ After installation, follow these steps to run the game :
 <p align="right">(<a href="#readme-top"><strong>Back to top</strong></a>)</p>
 
 
-## Description Grid Representation 💭
+## Description Grid Representation  💭
 
 
 __*The grid is a list where :*__
@@ -102,7 +102,7 @@ __Available Directions:__
     
  
 
-### **Steps to Solve the Problem:** 📖
+### **Steps to Solve the Problem:**  📖
 
 __*Locate the Player and the Bomb*__
 
