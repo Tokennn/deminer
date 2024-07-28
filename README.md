@@ -77,9 +77,9 @@ After installation, follow these steps to run the game :
 
 __*The grid is a list where :*__
 
-    -> An __empty space__ is represented by the character __'o'__.
-    -> The __player__ is represented by the character __'P'__.
-    -> The __bomb__ is represented by the character __'X'__.
+    * An empty space is represented by the character 'o'.
+    * The player is represented by the character 'P'.
+    * The bomb is represented by the character 'X'.
 
 __Available Directions:__
 
