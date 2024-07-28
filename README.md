@@ -13,7 +13,7 @@
  
 ## Project Overview  
 
-Create a program where a player moves on a grid to reach a bomb. The grid contains a player ('P') and a bomb ('X'), and the player does not know the bomb's position but must follow directions to get closer. The goal is to determine the directions the player should move to reach the bomb as quickly as possible.
+A program where a player moves on a grid to reach a bomb. The grid contains a player ('P') and a bomb ('X'), and the player does not know the bomb's position but must follow directions to get closer. (The goal is to determine the directions the player should move to reach the bomb as quickly as possible.)
 
 
 ## Prerequisites 
@@ -77,9 +77,9 @@ After installation, follow these steps to run the game :
 
 __*The grid is a list where :*__
 
-An empty space is represented by the character __'o'__.
-The player is represented by the character __'P'__.
-The bomb is represented by the character __'X'__.
+An __empty space__ is represented by the character __'o'__.
+The __player__ is represented by the character __'P'__.
+The __bomb__ is represented by the character __'X'__.
 
 __Available Directions:__
 
