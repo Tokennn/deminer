@@ -137,7 +137,6 @@ Then, when you win the game, the grids are updated randomly, with one of the oth
 ## Author / Contact 
  
 - __[@Tokennn]__ (https://github.com/Tokennn)
-- __[quentin.contreau@ynov.com]__
 
 <!-- (Markdown img link) : -->
 
