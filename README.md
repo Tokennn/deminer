@@ -125,12 +125,13 @@ __Stop When the Bomb is Reached:__
 ## Note ! ⚠️
 
 ``` 
-- When the game starts you have by default two grids (the top one which will give the position of the bomb when it is found then the bottom one which represents the current game with the position of the character).
-Then, when you win the game, it is updated with another position for P and X. It is however possible for you to stop the game by doing a "ctrl + c".
+- When the game starts you have by default two grids (the top one which will give the position of the bomb (X) when it is found then the bottom one which represents the current game with the position of the character (P)).
 
-- You will always have two grids when you start the game because later, the first grid will be used to represent the position of the bomb once found then the second will be that of your game in real time.
+Then, when you win the game, the grids are updated randomly, with one of the other grid layouts for P and X depending on the scenarios of the subject. However, you can stop the game at any time by doing a "ctrl + c" on your keyboard.
 
-- Let's also add that there are three types of grids which are randomly generated : one SMALL , the other LARGE and finally a VERTICAL one corresponding to the information given in the subject.
+- You will always have two grids when you start the game because subsequently, the first grid will be used to represent the position of the bomb once found then the second will be that of your game in real time.
+
+- Let's also add that there are three types of grids which are generated randomly: a SMALL one, a LARGE one and finally a VERTICAL one corresponding to the information given in the subject.
 ```
 
 ## Author / Contact 
