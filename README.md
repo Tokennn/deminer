@@ -1,4 +1,4 @@
-# Deminer
+# Deminer 💣
 
 <a name="readme-top"></a>
 
