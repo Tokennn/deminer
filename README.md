@@ -129,12 +129,14 @@ __Stop When the Bomb is Reached:__
 Then, when you win the game, it is updated with another position for P and X. It is however possible for you to stop the game by doing a "ctrl + c".
 
 - You will always have two grids when you start the game because later, the first grid will be used to represent the position of the bomb once found then the second will be that of your game in real time.
+
+- Let's also add that there are three types of grids : __one small__ , the other __large__ and finally a __vertical__ one corresponding to the information given in the subject.
 ```
 
-## Author  
+## Author / Contact 
  
 - __[@Tokennn]__ (https://github.com/Tokennn)
-
+- __[quentin.contreau@ynov.com]__
 
 <!-- (Markdown img link) : -->
 
