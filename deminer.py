@@ -1,6 +1,6 @@
 import random
 
-# -> Fonction to find the direction of the player and the bomb...
+# -> First fonction to find the bomb in relation to the player's position...
 
 def find_direction(player_pos, bomb_pos):
     player_x, player_y = player_pos
@@ -12,7 +12,6 @@ def find_direction(player_pos, bomb_pos):
         direction += "U"
     elif player_y < bomb_y:
         direction += "D"
-   
     if player_x > bomb_x:
         direction += "L"
     elif player_x < bomb_x:
@@ -20,35 +19,35 @@ def find_direction(player_pos, bomb_pos):
    
     return direction
 
-# -> Fonctions to get de movements of the player...
+# -> Fonctions to get the movements of the player...
 
 def get_player_move(direction):
     print(f"Déplacez-vous dans la direction: {direction}")
     valid_moves = [direction]
-    move = input(f"Choisissez une direction ({direction}) : ").strip().upper()
+    move = input(f"Choisissez la direction ({direction}) : ").strip().upper()
     while move not in valid_moves:
-        print(f"Direction invalide. Veuillez choisir: {direction}.")
-        move = input(f"Retentez votre chance et choisissez {direction} : ").strip().upper()
+        print(f"Mauvais sens ! Veuillez prendre: {direction}.")
+        move = input(f"Retentez votre chance et prenez {direction} : ").strip().upper()
+
     return move
 
-# -> Fonction to update a new grid when the bomb is reveal...
-
+# Fonction pour mettre à jour la grille
 def update_grid(grid, player_pos, bomb_pos=None, reveal_bomb=False):
     updated_grid = [['o' for _ in range(len(grid[0]))] for _ in range(len(grid))]
     updated_grid[player_pos[1]][player_pos[0]] = 'P'
-   
     if reveal_bomb and bomb_pos is not None:
         updated_grid[bomb_pos[1]][bomb_pos[0]] = 'X' 
    
     return updated_grid
 
+# -> Fonction to print the grid...
 
 def print_grid(grid):
     for row in grid:
         print(" ".join(row))
     print()
 
-# -> Fonctions to get de movements of the player...
+# Fonction for player deplacements...
 
 def move_player_interactively(grid, bomb_pos):
     player_pos = None
@@ -56,12 +55,10 @@ def move_player_interactively(grid, bomb_pos):
         for x in range(len(grid[y])):
             if grid[y][x] == 'P':
                 player_pos = (x, y)
-   
     if not player_pos:
         raise ValueError("La grille doit contenir un joueur 'P'")
-   
     while player_pos != bomb_pos:
-        print_grid(update_grid(grid, player_pos))
+        print_grid(update_grid(grid, player_pos, bomb_pos, reveal_bomb=True))
         direction = find_direction(player_pos, bomb_pos)
         move = get_player_move(direction)
         
@@ -89,24 +86,24 @@ def move_player_interactively(grid, bomb_pos):
         
         if 0 <= x < len(grid[0]) and 0 <= y < len(grid):
             player_pos = (x, y)
-            grid = update_grid(grid, player_pos)
+            grid = update_grid(grid, player_pos, bomb_pos, reveal_bomb=True)
         else:
             print("Vous ne pouvez pas faire ce mouvement, essayez à nouveau.")
-   
     print_grid(update_grid(grid, player_pos, bomb_pos, reveal_bomb=True))
     print("Félicitations ! Vous avez trouvé la bombe.")
    
-    # -> For generate a new grid and play another game...
+    # -> Generate a new game with a new grid, player and bomb...
 
     grid, player_pos, bomb_pos = generate_new_grid()
     print("Nouvelle grille générée :")
     move_player_interactively(grid, bomb_pos)
 
+    # -> Fonction to generate a new grid after the last one...
+
 def generate_new_grid():
     grids = [
 
         # -> First grid
-
         ([
             ["o", "o", "o", "o", "o"],
             ["o", "P", "o", "o", "o"],
@@ -115,7 +112,7 @@ def generate_new_grid():
             ["o", "o", "o", "o", "o"]
         ], (1, 1), (3, 1)),
         
-        # -> Second grid
+        # ->  Second grid
 
         ([
             ["o", "o", "o", "o", "o", "o", "o", "o", "o", "o", "o", "o", "o", "o", "o"],
@@ -163,11 +160,8 @@ def generate_new_grid():
     ]
 
     return random.choice(grids)
-
-# Example of initial grid...
-
 grid, player_pos, bomb_pos = generate_new_grid()
 
-print("Grille initiale (bombe cachée) :")
-print_grid(update_grid(grid, player_pos=player_pos))
+print("Grille initiale (bombe visible) :")
+print_grid(update_grid(grid, player_pos=player_pos, bomb_pos=bomb_pos, reveal_bomb=True))
 move_player_interactively(grid, bomb_pos)
