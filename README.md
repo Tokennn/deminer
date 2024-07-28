@@ -12,12 +12,12 @@
 - [Description](#games-description)
 - [Author](#author)
  
-## Project Overview  🔎
+## Project Overview  
 
 Create a program where a player moves on a grid to reach a bomb. The grid contains a player ('P') and a bomb ('X'), and the player does not know the bomb's position but must follow directions to get closer. The goal is to determine the directions the player should move to reach the bomb as quickly as possible.
 
 
-## Prerequisites 📜
+## Prerequisites 
  
 > [!IMPORTANT]
 > To get started with this project, you'll need:
@@ -34,7 +34,7 @@ For this project i worked on this technologie
 <p align="right">(<a href="#readme-top"><strong>Back to top</strong></a>)</p>
  
 
-## Installation 🚧
+## Installation 
  
 > [!NOTE]
 >1. Request access to be added as a collaborator. (not necessary here)
@@ -56,7 +56,7 @@ For this project i worked on this technologie
 <p align="right">(<a href="#readme-top"><strong>Back to top</strong></a>)</p>
  
  
-## Getting Started  ✅
+## Getting Started  
  
 After installation, follow these steps to run the game :
  
@@ -73,7 +73,7 @@ After installation, follow these steps to run the game :
 <p align="right">(<a href="#readme-top"><strong>Back to top</strong></a>)</p>
 
 
-## Description Grid Representation  💭
+## Description Grid Representation  
 
 
 __*The grid is a list where :*__
@@ -102,7 +102,7 @@ __Available Directions:__
     
  
 
-### **Steps to Solve the Problem:**  📖
+### **Steps to Solve the Problem:**  
 
 __*Locate the Player and the Bomb*__
 
@@ -132,7 +132,7 @@ Then, when you win the game, it is updated with another position for P and X. It
 - You will always have two grids when you start the game because later, the first grid will be used to represent the position of the bomb once found then the second will be that of your game in real time.
 ```
 
-## Contact  📄
+## Contact  
  
 - __[@Tokennn]__ (https://github.com/Tokennn)
 
