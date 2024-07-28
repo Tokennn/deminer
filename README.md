@@ -130,7 +130,7 @@ Then, when you win the game, it is updated with another position for P and X. It
 
 - You will always have two grids when you start the game because later, the first grid will be used to represent the position of the bomb once found then the second will be that of your game in real time.
 
-- Let's also add that there are three types of grids : one SMALL , the other LARGE and finally a VERTICAL one corresponding to the information given in the subject.
+- Let's also add that there are three types of grids which are randomly generated : one SMALL , the other LARGE and finally a VERTICAL one corresponding to the information given in the subject.
 ```
 
 ## Author / Contact 

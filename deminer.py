@@ -20,6 +20,17 @@ def find_direction(player_pos, bomb_pos):
    
     return direction
 
+# -> Fonctions to get de movements of the player...
+
+def get_player_move(direction):
+    print(f"Déplacez-vous dans la direction: {direction}")
+    valid_moves = [direction]
+    move = input(f"Choisissez une direction ({direction}) : ").strip().upper()
+    while move not in valid_moves:
+        print(f"Direction invalide. Veuillez choisir: {direction}.")
+        move = input(f"Retentez votre chance et choisissez {direction} : ").strip().upper()
+    return move
+
 # -> Fonction to update a new grid when the bomb is reveal...
 
 def update_grid(grid, player_pos, bomb_pos=None, reveal_bomb=False):
@@ -38,15 +49,6 @@ def print_grid(grid):
     print()
 
 # -> Fonctions to get de movements of the player...
-
-def get_player_move(direction):
-    print(f"Déplacez-vous dans la direction: {direction}")
-    valid_moves = [direction]
-    move = input(f"Choisissez une direction ({direction}) : ").strip().upper()
-    while move not in valid_moves:
-        print(f"Direction invalide. Veuillez choisir: {direction}.")
-        move = input(f"Retentez votre chance et choisissez {direction} : ").strip().upper()
-    return move
 
 def move_player_interactively(grid, bomb_pos):
     player_pos = None
