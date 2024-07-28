@@ -113,7 +113,7 @@ __Calculate the Direction:__
 
 __Move the Player:__
 
-```Create a loop to move the player in the determined direction. Update the`player's coordinates with each move and add each direction to a list of directions.```
+```A loop to move the player in the determined direction. Update the`player's coordinates with each move and add each direction to a list of directions.```
 
 __Stop When the Bomb is Reached:__
 
