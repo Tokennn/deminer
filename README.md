@@ -9,8 +9,7 @@
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Getting Started](#getting-started)
-- [Description](#games-description)
-- [Author](#author)
+- [Description](#description)
  
 ## Project Overview  
 
@@ -132,7 +131,7 @@ Then, when you win the game, it is updated with another position for P and X. It
 - You will always have two grids when you start the game because later, the first grid will be used to represent the position of the bomb once found then the second will be that of your game in real time.
 ```
 
-## Contact  
+## Author  
  
 - __[@Tokennn]__ (https://github.com/Tokennn)
 
